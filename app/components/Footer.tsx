@@ -18,10 +18,10 @@ const Footer = () => {
                 href="mailto:your.email@gmail.com"
                 className="block text-[#e8ded0] transition hover:text-[#f5a623]"
               >
-                your.email@gmail.com
+                abirm3188@gmail.com
               </Link>
               <Link
-                href="https://github.com/yourusername"
+                href="https://github.com/Abir1373"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[#b8a995] transition hover:text-[#f5a623]"
@@ -29,7 +29,7 @@ const Footer = () => {
                 GitHub
               </Link>
               <Link
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/dewan-abir-mahmud-3721722a5/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[#b8a995] transition hover:text-[#f5a623]"
@@ -56,12 +56,14 @@ const Footer = () => {
               </Link>
             </div>
             <div className="space-y-3">
-              <Link
+              <a
                 href="/cv.pdf"
+                download="Dewan-Abir-Mahmud-CV.pdf"
                 className="block text-[#e8ded0] transition hover:text-[#f5a623]"
               >
                 Résumé
-              </Link>
+              </a>
+
               <Link
                 href="/contact"
                 className="block text-[#e8ded0] transition hover:text-[#f5a623]"

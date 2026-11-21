@@ -58,6 +58,7 @@ export default function Hero() {
 
             <a
               href="/cv.pdf"
+              download="Dewan-Abir-Mahmud-CV.pdf"
               className="inline-flex items-center gap-2 border border-white/20 hover:bg-white/10 hover:border-white/30 rounded-full px-5 py-3 transition-all"
             >
               <FiDownload size={16} />
@@ -66,7 +67,7 @@ export default function Hero() {
 
             <div className="flex items-center gap-1 ml-1">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Abir1373"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -75,7 +76,7 @@ export default function Hero() {
                 <FiGithub size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/dewan-abir-mahmud-3721722a5/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
